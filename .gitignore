@@ -1,0 +1,12 @@
+# never commit pulls, fixtures with case data, or credentials
+out/
+*.casesum.json
+live-casesum.json
+live-status.txt
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+**/cookies*
+**/chrome-profile*
